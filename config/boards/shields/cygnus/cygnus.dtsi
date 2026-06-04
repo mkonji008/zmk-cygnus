@@ -3,60 +3,61 @@
 
 / 
 
-#{   cygnus_layout: cygnus_layout {
-#        compatible = "zmk,physical-layout";
-#        display-name = "cygnus";
-#
-#        kscan = <&kscan0>;
-#        transform = <&matrix_transform0>;
-#
-#
-#         keys  //              w   h    x    y       rot    rx     ry
-#        = <&key_physical_attrs 100 100  100  175       0     0     0>
-#        , <&key_physical_attrs 100 100  200  125       0     0     0>
-#        , <&key_physical_attrs 100 100  300  100       0     0     0>
-#        , <&key_physical_attrs 100 100  400  125       0     0     0>
-#        , <&key_physical_attrs 100 100  500  125       0     0     0>
-#        , <&key_physical_attrs 100 100  775  125       0     0     0>
-#        , <&key_physical_attrs 100 100  875  125       0     0     0>
-#        , <&key_physical_attrs 100 100  975  100       0     0     0>
-#        , <&key_physical_attrs 100 100 1075  125       0     0     0>
-#        , <&key_physical_attrs 100 100 1175  175       0     0     0>
-#
-#
-#        , <&key_physical_attrs 100 100  100  275       0     0     0>
-#        , <&key_physical_attrs 100 100  200  225       0     0     0>
-#        , <&key_physical_attrs 100 100  300  200       0     0     0>
-#        , <&key_physical_attrs 100 100  400  225       0     0     0>
-#        , <&key_physical_attrs 100 100  500  225       0     0     0>
-#        , <&key_physical_attrs 100 100  775  225       0     0     0>
-#        , <&key_physical_attrs 100 100  875  225       0     0     0>
-#        , <&key_physical_attrs 100 100  975  200       0     0     0>
-#        , <&key_physical_attrs 100 100 1075  225       0     0     0>
-#        , <&key_physical_attrs 100 100 1175  275       0     0     0>
-#
-#
-#        , <&key_physical_attrs 100 100  100  375       0     0     0>
-#        , <&key_physical_attrs 100 100  200  325       0     0     0>
-#        , <&key_physical_attrs 100 100  300  300       0     0     0>
-#        , <&key_physical_attrs 100 100  400  325       0     0     0>
-#        , <&key_physical_attrs 100 100  500  325       0     0     0>
-#        , <&key_physical_attrs 100 100  775  325       0     0     0>
-#        , <&key_physical_attrs 100 100  875  325       0     0     0>
-#        , <&key_physical_attrs 100 100  975  300       0     0     0>
-#        , <&key_physical_attrs 100 100 1075  325       0     0     0>
-#        , <&key_physical_attrs 100 100 1175  375       0     0     0>
-#
-#
-#        , <&key_physical_attrs 100 100  325  500       0     0     0>
-#        , <&key_physical_attrs 100 100  425  500       0     0     0>
-#        , <&key_physical_attrs 100 100  525  500       0     0     0>
-#        , <&key_physical_attrs 100 100  725  500       0     0     0>
-#        , <&key_physical_attrs 100 100  825  500       0     0     0>
-#        , <&key_physical_attrs 100 100  925  500       0     0     0>
-#        ;
-#    };
+/*
+{   cygnus_layout: cygnus_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "cygnus";
 
+        kscan = <&kscan0>;
+        transform = <&matrix_transform0>;
+
+
+         keys  //              w   h    x    y       rot    rx     ry
+        = <&key_physical_attrs 100 100  100  175       0     0     0>
+        , <&key_physical_attrs 100 100  200  125       0     0     0>
+        , <&key_physical_attrs 100 100  300  100       0     0     0>
+        , <&key_physical_attrs 100 100  400  125       0     0     0>
+        , <&key_physical_attrs 100 100  500  125       0     0     0>
+        , <&key_physical_attrs 100 100  775  125       0     0     0>
+        , <&key_physical_attrs 100 100  875  125       0     0     0>
+        , <&key_physical_attrs 100 100  975  100       0     0     0>
+        , <&key_physical_attrs 100 100 1075  125       0     0     0>
+        , <&key_physical_attrs 100 100 1175  175       0     0     0>
+
+
+        , <&key_physical_attrs 100 100  100  275       0     0     0>
+        , <&key_physical_attrs 100 100  200  225       0     0     0>
+        , <&key_physical_attrs 100 100  300  200       0     0     0>
+        , <&key_physical_attrs 100 100  400  225       0     0     0>
+        , <&key_physical_attrs 100 100  500  225       0     0     0>
+        , <&key_physical_attrs 100 100  775  225       0     0     0>
+        , <&key_physical_attrs 100 100  875  225       0     0     0>
+        , <&key_physical_attrs 100 100  975  200       0     0     0>
+        , <&key_physical_attrs 100 100 1075  225       0     0     0>
+        , <&key_physical_attrs 100 100 1175  275       0     0     0>
+
+
+        , <&key_physical_attrs 100 100  100  375       0     0     0>
+        , <&key_physical_attrs 100 100  200  325       0     0     0>
+        , <&key_physical_attrs 100 100  300  300       0     0     0>
+        , <&key_physical_attrs 100 100  400  325       0     0     0>
+        , <&key_physical_attrs 100 100  500  325       0     0     0>
+        , <&key_physical_attrs 100 100  775  325       0     0     0>
+        , <&key_physical_attrs 100 100  875  325       0     0     0>
+        , <&key_physical_attrs 100 100  975  300       0     0     0>
+        , <&key_physical_attrs 100 100 1075  325       0     0     0>
+        , <&key_physical_attrs 100 100 1175  375       0     0     0>
+
+
+        , <&key_physical_attrs 100 100  325  500       0     0     0>
+        , <&key_physical_attrs 100 100  425  500       0     0     0>
+        , <&key_physical_attrs 100 100  525  500       0     0     0>
+        , <&key_physical_attrs 100 100  725  500       0     0     0>
+        , <&key_physical_attrs 100 100  825  500       0     0     0>
+        , <&key_physical_attrs 100 100  925  500       0     0     0>
+        ;
+    };
+*/
     chosen {
         zmk,kscan = &kscan0;
         zmk,physical-layout = &cygnus_layout;
