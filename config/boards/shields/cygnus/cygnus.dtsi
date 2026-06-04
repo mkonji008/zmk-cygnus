@@ -1,8 +1,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "physical_layouts.dtsi"
 
-/ {
-#    cygnus_layout: cygnus_layout {
+/ 
+
+#{   cygnus_layout: cygnus_layout {
 #        compatible = "zmk,physical-layout";
 #        display-name = "cygnus";
 #
