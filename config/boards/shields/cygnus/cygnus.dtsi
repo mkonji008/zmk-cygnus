@@ -91,7 +91,7 @@
             <&gpio1 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
-#    &cygnus_layout{
+//    &cygnus_layout{
 
 	transform = <&default_transform>;
 
